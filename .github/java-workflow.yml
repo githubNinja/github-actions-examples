@@ -1,6 +1,5 @@
 name: Java workflow
-on:
-    push:
+on: [push]
 jobs:
     verify:
         name: Verify Job
